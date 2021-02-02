@@ -1,13 +1,14 @@
 import React, { useContext, useState, useEffect } from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
+import HeroImg from '../Image/Heroimg';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { title, name, subtitle, cta } = hero;
+  const { img, title, name, subtitle, cta } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -27,25 +28,31 @@ const Header = () => {
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <Row>
-            <h1 className="hero-title">
-              {title || 'Hi, my name is'}{' '}
-              <span className="text-color-main">{name || 'Rashad'}</span>
-              <br />
-              {subtitle || "I'm a Web developer."}
-            </h1>
-          </Row>
-          <Row>
-            <p>MY LOGO GOES HERE</p>
+            <Col md={8}>
+              <h1 className="hero-title">
+                {title || 'Hi, my name is'}{' '}
+                <span className="text-color-main">{name || 'Rashad'}</span>
+                <br />
+                {subtitle || "I'm a Software engineer."}
+              </h1>
+            </Col>
+            <Col md={4}>
+              <HeroImg alt="rashad madison logo" filename={img} />
+            </Col>
           </Row>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-          <p className="hero-cta">
-            <span className="cta-btn cta-btn--hero">
-              <Link to="about" smooth duration={1000}>
-                {cta || 'Know more'}
-              </Link>
-            </span>
-          </p>
+          <Row>
+            <Col xs={12}>
+              <p className="hero-cta mt-5">
+                <span className="cta-btn cta-btn--hero">
+                  <Link to="about" smooth duration={1000}>
+                    {cta || 'Learn more'}
+                  </Link>
+                </span>
+              </p>
+            </Col>
+          </Row>
         </Fade>
       </Container>
     </section>

@@ -9,6 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
+  img: 'logo.png',
   title: '',
   name: '',
   subtitle: '',
