@@ -134,11 +134,11 @@ export const projectsData = [
     id: nanoid(),
     img: 'RashadMadisonMatchingGame_img.png',
     title: 'Matching Game',
-    info: 'Card matching game that shows more advanced knowledge of JavaScript.',
-    info2: '',
+    info: 'Card matching game that shows my knowledge of JavaScript and CSS animations.',
+    info2: 'What I am most proud of here is developing something that works and looks awesome',
     url: 'https://rashadmad.github.io/Public-API-Requests-project-5/',
     repo: 'https://github.com/rashadmad/Public-API-Requests-project-5', // if no repo, the button will not show up
-    skills: ['JQuery', 'HTML5', 'CSS', 'JavaScript'],
+    skills: ['HTML5', 'CSS', 'JavaScript'],
   },
 ];
 
