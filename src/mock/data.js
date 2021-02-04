@@ -2,9 +2,10 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Rashad J Madison | Software Engineer - Frontend Developer - QA Engineer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description:
+    'Welcome to my Portfolio site. I am a engineer with diverse talents, always looking for opportunities to create, test and design software. Here you will find an up-to-date resume and examples of my current work. ', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -72,6 +73,18 @@ export const projectsData = [
     url: 'https://rashadmad.github.io/Treehouse-project-pagination-unit-02/',
     repo: 'https://github.com/rashadmad/Treehouse-project-pagination-unit-02', // if no repo, the button will not show up
     skills: ['JSON', 'JavaScript'],
+  },
+  {
+    id: nanoid(),
+    img: 'RashadMadisonFitnessSite_img.png',
+    title: 'Fitness site',
+    info:
+      'Example of some of my client work. I developed a website for the Fulton Fithouse gym. This site was completed in Bootstrap with a helping hand of JavScript.',
+    info2:
+      'An important part of this project was discussing with the client and ascertaining his specific business needs.',
+    url: 'https://rashadmad.github.io/FitnessSite/',
+    repo: 'https://github.com/rashadmad/FitnessSite', // if no repo, the button will not show up
+    skills: ['Bootstrap', 'HTML5', 'CSS', 'JavaScript'],
   },
   {
     id: nanoid(),
