@@ -11,19 +11,23 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   img: 'logo.png',
-  title: '',
-  name: '',
-  subtitle: '',
+  title: "Welcome I'm ",
+  name: 'Rashad',
+  subtitle: "I'm a Software engineer.",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    'Bridging the gap between design and implementation, I believe performant and secure applications can still look and feel great to the user.',
+  paragraphTwo:
+    'I am a highly creative individual with a strong passion for innovation. Passionate and compassionate, I have built many customer-facing experiences that are accessible and encourage engagement.',
+  paragraphThree:
+    'Looking for opportunities to continue to utilize my technical and creative skills to develop rich user interfaces.',
+  resume1: 'https://drive.google.com/file/d/1rwNXWN9D12WD-Tc0MsV5EvPs8m7MVnPp/view?usp=sharing', // if no resume, the button will not show up
+  resume2: 'https://drive.google.com/file/d/17EEQTYigKPlrbGuVL30tK_1VrrOFJx-h/view?usp=sharing',
 };
 
 // PROJECTS DATA
