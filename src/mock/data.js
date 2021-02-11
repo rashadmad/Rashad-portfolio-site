@@ -5,7 +5,7 @@ export const headData = {
   title: 'Rashad J Madison | Software Engineer - Frontend Developer - QA Engineer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description:
-    'Welcome to my Portfolio site. I am a engineer with diverse talents, always looking for opportunities to create, test and design software. Here you will find an up-to-date resume and examples of my current work. ', // e.g: Welcome to my website
+    'Welcome to my Portfolio site. I am a engineer with diverse talents, always looking for opportunities to create, test and design software. Here you will find an up-to-date resume and examples of my current work. Below are examples of my most up-to-date work though not perfect I am regularly doing bug triage and refractors, I am still quite proud of them. ', // e.g: Welcome to my website
 };
 
 // HERO DATA
