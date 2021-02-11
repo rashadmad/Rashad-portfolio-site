@@ -37,7 +37,7 @@ export const projectsData = [
     img: 'RashadMadisonFullstackReactApplication_img.png',
     title: 'React Fullstack Application',
     info:
-      'Built a client in react.js for a SQL Rest api. This application has sign up and sign in functionality for users. It also allows users to create books, make changes to them, view and delete them. ',
+      'Built a client in react.js for a SQL Rest API. This application has sign up and sign in functionality for users. It also allows users to create books, make changes to them, view and delete them. ',
     info2:
       'This application is one of the most challenging ones that I have made. Creating this gave me an understanding of front and backend technologies and how they communicate.',
     url: '',
@@ -51,7 +51,7 @@ export const projectsData = [
     info:
       'Utilizing Express.js and SQL I created a REST API that gives users CRUD functionalities over items in a school database.',
     info2:
-      'This was my first backend database. Creating amplified my understand of software as a whole',
+      'This was my first backend database. Creating this amplified my understand of software as a whole',
     url: '',
     repo: 'https://github.com/rashadmad/REST-API', // if no repo, the button will not show up
     skills: ['Express.js', 'sqlite3', 'JavaScript', 'Node.js'],
@@ -61,21 +61,22 @@ export const projectsData = [
     img: 'RashadMadisonRandomQuoteGenerator_img.png',
     title: 'Random Quote Generator',
     info:
-      'project that displays random famous quotes from many African American Leaders. I used vanilla JavScript to create this. it was a requirement of the TAP(treehouse apprenticeship program). At the time it was Black history month and I wanted to show my appreciation of the many african american heros over the years. This project gave me the opportunity to get used to dealing with json like data structures',
-    info2: '',
-    url: 'https://rashadmad.github.io/Public-API-Requests-project-5/',
-    repo: 'https://github.com/rashadmad/Public-API-Requests-project-5', // if no repo, the button will not show up
+      'Project that displays random famous quotes from many African American Leaders. I used vanilla JavScript to create this.',
+    info2:
+      'It was a requirement of the TAP(treehouse apprenticeship program). At the time it was Black history month and I wanted to show my appreciation of the many African American heros over the years. This project gave me the opportunity to get used to dealing with JSON like data structures',
+    url: 'https://rashadmad.github.io/Treehouse-project-quote-generator-unit-01',
+    repo: 'https://github.com/rashadmad/Treehouse-project-quote-generator-unit-01', // if no repo, the button will not show up
     skills: ['JQuery', 'HTML5', 'CSS', 'JavaScript'],
   },
   {
     id: nanoid(),
     img: 'RashadMadisonPublicAPI_img.png',
-    title: 'Random User api Project',
+    title: 'Random User API Project',
     info:
       'Pagination of multiple student list items with search. This project continues the trend of dealing with common obstacles with data. Usually one would use a library for a pagination and search. But getting the opportunity to see how all of that goes together was eye opening.',
     info2: '',
-    url: 'https://rashadmad.github.io/Treehouse-project-pagination-unit-02/',
-    repo: 'https://github.com/rashadmad/Treehouse-project-pagination-unit-02', // if no repo, the button will not show up
+    url: 'https://rashadmad.github.io/Public-API-Requests-project-5',
+    repo: 'https://github.com/rashadmad/Public-API-Requests-project-5', // if no repo, the button will not show up
     skills: ['JSON', 'JavaScript'],
   },
   {
@@ -87,7 +88,7 @@ export const projectsData = [
     info2:
       'An important part of this project was discussing with the client and ascertaining his specific business needs.',
     url: 'https://rashadmad.github.io/FitnessSite/',
-    repo: 'https://github.com/rashadmad/FitnessSite', // if no repo, the button will not show up
+    repo: 'https://github.com/rashadmad/FitnessSite/', // if no repo, the button will not show up
     skills: ['Bootstrap', 'HTML5', 'CSS', 'JavaScript'],
   },
   {
@@ -119,8 +120,8 @@ export const projectsData = [
     info:
       'This game was my first experience with OOP in javScript. The game requires multiple changes to state as it has a game win and lose lifecycle',
     info2: '',
-    url: 'https://rashadmad.github.io/Treehouse-project-pagination-unit-02/',
-    repo: 'https://github.com/rashadmad/Treehouse-project-pagination-unit-02', // if no repo, the button will not show up
+    url: 'https://rashadmad.github.io/frontend-nanodegree-arcade-game/',
+    repo: 'https://github.com/rashadmad/frontend-nanodegree-arcade-game', // if no repo, the button will not show up
     skills: ['JSON', 'JavaScript', 'HTML', 'CSS'],
   },
   {
@@ -140,8 +141,8 @@ export const projectsData = [
     title: 'Matching Game',
     info: 'Card matching game that shows my knowledge of JavaScript and CSS animations.',
     info2: 'What I am most proud of here is developing something that works and looks awesome',
-    url: 'https://rashadmad.github.io/Public-API-Requests-project-5/',
-    repo: 'https://github.com/rashadmad/Public-API-Requests-project-5', // if no repo, the button will not show up
+    url: 'https://rashadmad.github.io/fend-project-memory-game',
+    repo: 'https://github.com/rashadmad/fend-project-memory-game', // if no repo, the button will not show up
     skills: ['HTML5', 'CSS', 'JavaScript'],
   },
 ];

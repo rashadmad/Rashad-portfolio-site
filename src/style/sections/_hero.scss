@@ -62,4 +62,12 @@
       }
     }
   }
+
+  .cta-btn--hero{
+    float: left;
+    @include respond(tab-port) {
+      float: none;
+    }
+
+  }
 }
