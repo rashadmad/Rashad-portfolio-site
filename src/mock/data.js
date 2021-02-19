@@ -58,6 +58,16 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'RashadMadionReactImageGallery',
+    title: 'React Image Gallery',
+    info: "Utilizing React.js and Flickr's api I created a fully searchable listing Flickr images",
+    info2: '',
+    url: 'http://react-gallery-app.s3-website.us-east-2.amazonaws.com/',
+    repo: 'https://github.com/rashadmad/React-Gallery-App-project-7', // if no repo, the button will not show up
+    skills: ['React.js', 'API'],
+  },
+  {
+    id: nanoid(),
     img: 'RashadMadisonRandomQuoteGenerator_img.png',
     title: 'Random Quote Generator',
     info:
