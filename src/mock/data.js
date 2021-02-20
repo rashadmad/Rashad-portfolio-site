@@ -27,7 +27,8 @@ export const aboutData = {
   paragraphThree:
     'Looking for opportunities to continue to utilize my technical and creative skills to develop rich user interfaces.',
   resume1: 'https://drive.google.com/file/d/1rwNXWN9D12WD-Tc0MsV5EvPs8m7MVnPp/view?usp=sharing', // if no resume, the button will not show up
-  resume2: 'https://drive.google.com/file/d/17EEQTYigKPlrbGuVL30tK_1VrrOFJx-h/view?usp=sharing',
+  resume2: 'https://drive.google.com/file/d/1CnZ2cZfc35QSrHSJ8X3UJHZuu_PJeo2V/view?usp=sharing',
+  resume3: 'https://drive.google.com/file/d/17EEQTYigKPlrbGuVL30tK_1VrrOFJx-h/view?usp=sharing',
 };
 
 // PROJECTS DATA
@@ -60,8 +61,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'RashadMadionReactImageGallery',
     title: 'React Image Gallery',
-    info: "Utilizing React.js and Flickr's api I created a fully searchable listing Flickr images",
-    info2: '',
+    info:
+      "Utilizing React.js and Flickr's api I created a fully searchable listing of Flickr images",
+    info2:
+      'This was my first React project, it was definitely a challenge but I really enjoy creating modular components',
     url: 'http://react-gallery-app.s3-website.us-east-2.amazonaws.com/',
     repo: 'https://github.com/rashadmad/React-Gallery-App-project-7', // if no repo, the button will not show up
     skills: ['React.js', 'API'],

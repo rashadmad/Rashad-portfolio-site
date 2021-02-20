@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume1, resume2 } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, resume1, resume2, resume3 } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -68,7 +68,19 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume2}
                     >
-                      Software Engineer Resume
+                      Full Stack Resume
+                    </a>
+                  </span>
+                )}
+                {resume3 && (
+                  <span className="d-flex mt-3">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cta-btn cta-btn--resume"
+                      href={resume3}
+                    >
+                      Full Stack Resume
                     </a>
                   </span>
                 )}
