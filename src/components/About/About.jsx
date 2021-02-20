@@ -80,7 +80,7 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume3}
                     >
-                      Full Stack Resume
+                      QA Engineer Resume
                     </a>
                   </span>
                 )}
