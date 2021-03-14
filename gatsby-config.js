@@ -31,5 +31,6 @@ module.exports = {
         icon: 'src/images/favicon.png',
       },
     },
+    `gatsby-transformer-remark`,
   ],
 };
