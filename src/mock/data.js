@@ -31,6 +31,13 @@ export const aboutData = {
   resume3: 'https://drive.google.com/file/d/17EEQTYigKPlrbGuVL30tK_1VrrOFJx-h/view?usp=sharing',
 };
 
+// BlOG DATA
+export const blogData = {
+  author: 'Rashad J Madison',
+  bio: 'Writing about books, best practices and anything else under the sun.',
+};
+
+
 // PROJECTS DATA
 export const projectsData = [
   {

@@ -1,37 +1,44 @@
-import React from 'react';
-import { graphql } from 'gatsby';
+import React, { useContext, useState, useEffect } from 'react';
+import { Container } from 'react-bootstrap';
 import Title from '../Title/Title';
+import PortfolioContext from '../../context/context';
 
-export default function Blog({ data }) {
-const { posts } = data.blog
+const Blog = () => {
+  const { blog } = useContext(PortfolioContext);
+  const { author, bio } = blog;
+
+  const [isDesktop, setIsDesktop] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    if (window.innerWidth > 769) {
+      setIsDesktop(true);
+      setIsMobile(false);
+    } else {
+      setIsMobile(true);
+      setIsDesktop(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (window.innerWidth > 769) {
+      setIsDesktop(true);
+      setIsMobile(false);
+    } else {
+      setIsMobile(true);
+      setIsDesktop(false);
+    }
+  }, []);
 
   return (
-    <div>
-      <Title title="My Blog" />
+    <section>
+      <Container>
+        <Title title="My Blog" />
+        <h1>{ author }</h1>
+        <p>{ bio }</p>
+      </Container>
+    </section>
+  );
+};
 
-      {posts.map(post => (
-        <article key={post.id}>
-          <h2>{post.frontmatter.title}</h2>
-          <small>{post.frontmatter.author}, {post.frontmatter.date}</small>
-          <p>{post.excerpt}</p>
-        </article>
-      ))}
-    </div>
-  )
-}
-
-export const pageQuery = graphql`
-  query MyQuery {
-    blog: allMarkdownRemark {
-      posts: nodes {
-        frontmatter {
-          date(fromNow: true)
-          title
-          author
-        }
-        excerpt
-        id
-      }
-    }
-  }
-`
+export default Blog;
