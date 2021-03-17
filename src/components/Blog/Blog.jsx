@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import Title from '../Title/Title';
 import PortfolioContext from '../../context/context';
@@ -11,8 +11,8 @@ const Blog = () => {
     <section>
       <Container>
         <Title title="My Blog" />
-        <h1>{ author }</h1>
-        <p>{ bio }</p>
+        <h1>{author}</h1>
+        <p>{bio}</p>
       </Container>
     </section>
   );
